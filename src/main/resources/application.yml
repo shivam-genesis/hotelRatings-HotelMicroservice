@@ -4,15 +4,14 @@ server:
 spring:
   application:
     name: HOTEL-SERVICE
+  
   datasource:
     name: hotelMicroservice
     url: jdbc:mysql://localhost:3306/hotelMicroservice
     username: root
     password: English@123
     driver-class-name: com.mysql.cj.jdbc.Driver
-    
-    
-    
+       
   jpa:
     properties:
       hibernate:
